@@ -1,9 +1,8 @@
 package main
 
 import (
-	"github.com/mcuadros/go-gin-prometheus"
-
 	"github.com/gin-gonic/gin"
+	ginprometheus "github.com/zsais/go-gin-prometheus"
 )
 
 func main() {
