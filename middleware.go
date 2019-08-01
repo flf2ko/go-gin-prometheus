@@ -302,6 +302,7 @@ func NewMetric(m *Metric, subsystem string) prometheus.Collector {
 				Subsystem: subsystem,
 				Name:      m.Name,
 				Help:      m.Description,
+				Objectives: map[float64]float64{},
 			},
 			m.Args,
 		)
